@@ -22,4 +22,32 @@ Output: ["h","a","n","n","a","H"]
 #### Constraints:
 `1 <= s.length <= 105`
 
-s[i] is a printable ascii character.
+`s[i]` is a printable ascii character.
+
+
+## Solution
+
+```c++
+class Solution {
+public:
+    void reverseString(vector<char>& s) 
+    {
+        int i = 0;
+        int j = s.size()-1;
+        
+        while(i < j)
+        {
+            char temp;        // creating a temp var to perfrom swaps
+            temp = s[i];      // temp holds value in s[i]
+            s[i] = s[j];      // s[i] would be assigned the value in s[j] - half of the swap complete
+            s[j] = temp;      // s[j] = temp which held s[i] initial value - full swap complete
+    
+            i++;
+            j--;
+        }
+        
+    }
+};
+```
+
+
