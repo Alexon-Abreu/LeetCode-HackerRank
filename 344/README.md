@@ -20,6 +20,6 @@ Output: ["h","a","n","n","a","H"]
 ```
 
 #### Constraints:
-1 <= s.length <= 105
+`1 <= s.length <= 105`
 
 s[i] is a printable ascii character.
