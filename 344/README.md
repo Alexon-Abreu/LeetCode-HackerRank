@@ -6,7 +6,6 @@ You must do this by modifying the input array in-place with O(1) extra memory.
 
 #### Example 1:
 
-**Input**: 
 ```c++
 Input: s = ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]
@@ -15,8 +14,6 @@ Output: ["o","l","l","e","h"]
 
 #### Example 2:
 
-
-**Input**: 
 ```c++
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
