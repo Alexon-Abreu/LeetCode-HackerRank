@@ -12,7 +12,7 @@ s = ["h", "e", "l", "l", "o"]
 ```
 
 
-## Example 2:
+# Example 2:
 
 
 **Input**: 
@@ -21,9 +21,10 @@ Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 ```
 
-## Constraints:
+# Constraints:
 ```
 1 <= s.length <= 105
 ```
 
-```s[i]``` is a printable ascii character.
+```s[i]``` 
+is a printable ascii character.
