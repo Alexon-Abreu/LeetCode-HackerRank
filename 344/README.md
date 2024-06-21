@@ -12,7 +12,7 @@ s = ["h", "e", "l", "l", "o"]
 ```
 
 
-###### Example 2:
+##### Example 2:
 
 
 **Input**: 
