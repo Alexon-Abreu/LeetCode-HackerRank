@@ -6,9 +6,7 @@ My C++ Code for LeetCode Data Structures and Algorithms
 
 | #   | Title              | Difficulty | Solution   |
 |-----|--------------------|------------|------------|
-| 1   | Example Problem    | Easy       | [Link](#)  |
-| 2   | Another Problem    | Medium     | [Link](#)  |
-| 3   | Hard Problem       | Hard       | [Link](#)  |
+| 344   |  Reverse String    | Easy       | [Link](#)  |
 
-## Usage
-To use this project...
+
+
