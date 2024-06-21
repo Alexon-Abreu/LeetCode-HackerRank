@@ -8,7 +8,8 @@ You must do this by modifying the input array in-place with O(1) extra memory.
 
 **Input**: 
 ```c++
-s = ["h", "e", "l", "l", "o"]
+Input: s = ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
 ```
 
 
