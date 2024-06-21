@@ -6,7 +6,7 @@ My C++ Code for LeetCode Data Structures and Algorithms
 
 | #   | Title              | Difficulty | Solution   |
 |-----|--------------------|------------|------------|
-| 344   |  Reverse String    | Easy       | [LeetCode/344](#)  |
+| 344   |  Reverse String    | Easy       | [LeetCode/344](#LeetCode/344)  |
 
 
 
