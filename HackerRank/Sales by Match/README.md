@@ -22,12 +22,14 @@ int ar[n]: the colors of each sock
 #### Returns
 int: the number of pairs
 
+
 ### Input Format
 The first line contains an integer *n*, the number of socks represented in *ar*.
 The second line contains *n* space-separated integers, *ar[i]*, the colors of the socks in the pile.
 
 #### Constraints:
 `1 <= n <= 100`
+
 `1 <= arr[i] <= 100 where 0 <= i <= n`
 
 
@@ -35,6 +37,7 @@ The second line contains *n* space-separated integers, *ar[i]*, the colors of th
 STDIN                       Function
 -----                       --------
 9                           n = 9
+
 10 20 20 10 10 30 50 10 20  ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
 
 ### Sample Output
