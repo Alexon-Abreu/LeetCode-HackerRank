@@ -1,23 +1,31 @@
-# 344. Reverse String (Easy)
+# Sales by Match
 
-Write a function that reverses a string. The input string is given as an array of characters `s`.
-
-You must do this by modifying the input array in-place with `O(1)` extra memory.
+There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
 
 #### Example 1:
 
 ```c++
-Input: s = ["h","e","l","l","o"]
-Output: ["o","l","l","e","h"]
+n = 7
+ar = [1,2,1,2,1,3,2]
+There is one pair of color 1 and one of color 2. There are three odd socks left, one of each color. The number of pairs is 2.
 ```
 
 
-#### Example 2:
+#### Function Description
 
 ```c++
-Input: s = ["H","a","n","n","a","h"]
-Output: ["h","a","n","n","a","H"]
+Complete the sockMerchant function in the editor below.
+sockMerchant has the following parameter(s):
+int n: the number of socks in the pile
+int ar[n]: the colors of each sock
 ```
+
+#### Returns
+int: the number of pairs
+
+### Input Format
+The first line contains an integer *n*, the number of socks represented in *ar*.
+The second line contains *n* space-separated integers, *ar[i]*, the colors of the socks in the pile.
 
 #### Constraints:
 `1 <= s.length <= 105`
