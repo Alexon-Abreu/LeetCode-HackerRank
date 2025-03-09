@@ -29,7 +29,7 @@ Output: 0
 `0 <= k <= 10^6`
 
 
-## Solution
+## My Solution
 
 ```c++
 class Solution

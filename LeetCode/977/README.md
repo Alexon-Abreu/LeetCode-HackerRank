@@ -27,7 +27,7 @@ Output: [4,9,9,49,121]
 `nums` is sorted in **non-decreasing order** (aka increasing order).
 
 
-## Solution
+## My Solution
 
 ```c++
 class Solution {

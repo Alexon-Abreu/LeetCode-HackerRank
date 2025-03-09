@@ -25,7 +25,7 @@ Output: ["h","a","n","n","a","H"]
 `s[i]` is a printable ascii character.
 
 
-## Solution
+## My Solution
 
 ```c++
 class Solution {
