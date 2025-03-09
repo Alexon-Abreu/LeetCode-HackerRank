@@ -4,7 +4,7 @@ My C++ solutions for HackerRank problems
 
 | Title              | Difficulty | Solution   |
 |--------------------|------------|------------|
-|  Sales by Match    | Easy       | [Solution](HackerRank/Sales by Match)  |
+|  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |
 
 
 
