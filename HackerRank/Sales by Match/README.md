@@ -25,6 +25,7 @@ int: the number of pairs
 
 #### Input Format
 The first line contains an integer *n*, the number of socks represented in *ar*.
+
 The second line contains *n* space-separated integers, *ar[i]*, the colors of the socks in the pile.
 
 #### Constraints:
