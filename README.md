@@ -1,5 +1,4 @@
 # HackerRank
-Author: https://github.com/Alexon-Abreu
 
 My C++ solutions for HackerRank problems
 
@@ -10,9 +9,8 @@ My C++ solutions for HackerRank problems
 
 
 # LeetCode
-Author: https://github.com/Alexon-Abreu
 
-My C++ Code for LeetCode Data Structures and Algorithms
+My C++ Solutions for LeetCode Data Structures and Algorithms
 
 | #   | Title              | Difficulty | Solution   |
 |-----|--------------------|------------|------------|
