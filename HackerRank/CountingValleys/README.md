@@ -42,10 +42,11 @@ The second line contains a single string *path*, of *steps* characters that desc
 
 
 ### Sample Input
-
+`8`
+`UDDDUDUU`
 
 ### Sample Output
-
+`1`
 
 ## My Solution
 
