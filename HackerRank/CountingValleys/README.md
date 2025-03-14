@@ -10,9 +10,10 @@ Given the sequence of up and down steps during a hike, find and print the number
 #### Example 1:
 
 ```c++
-*steps* = 8 *path* = [DDUUUUDD]
+steps = 8 path = [DDUUUUDD]
 
-The hiker first enters a valley 2 units deep. Then they climb out and up onto a mountain 2 units high. Finally, the hiker returns to sea level and ends the hike.
+The hiker first enters a valley 2 units deep. Then they climb out and up onto a mountain 2 units high. 
+Finally, the hiker returns to sea level and ends the hike.
 ```
 
 
@@ -27,16 +28,17 @@ countingValleys has the following parameter(s):
 ```
 
 #### Returns
-int: the number of pairs
+int: the number of valleys traversed
 
 
 #### Input Format
-
+The first line contains an integer *steps*, the number of steps in the hike.
+The second line contains a single string *path*, of *steps* characters that describe the path.
 
 #### Constraints:
-<!-- `1 <= n <= 100`
+`2 <= steps <= 10^6`
 
-`1 <= arr[i] <= 100 where 0 <= i <= n` -->
+`path[i] includes {U D}`
 
 
 ### Sample Input
