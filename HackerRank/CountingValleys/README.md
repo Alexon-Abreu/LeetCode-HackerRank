@@ -33,6 +33,7 @@ int: the number of valleys traversed
 
 #### Input Format
 The first line contains an integer *steps*, the number of steps in the hike.
+
 The second line contains a single string *path*, of *steps* characters that describe the path.
 
 #### Constraints:
@@ -43,6 +44,7 @@ The second line contains a single string *path*, of *steps* characters that desc
 
 ### Sample Input
 `8`
+
 `UDDDUDUU`
 
 ### Sample Output
