@@ -86,10 +86,10 @@ This is a pretty simple problem, all we have to do is keep track of the sea leve
 
 So I start by declaring and instantiating the values of *seaLevel* and *numOfValleys* to 0, these will keep track of the current sea level and the # of valleys traversed.
 
-Then we create a for loop to iterate through the string *path*. The *steps* parameter will hold the # of steps taken by the hiker, we can also view this as the # of indices included in the string *path*, since can be treated as arrays. *steps* will serve as the limit our for loop should not pass.
+Then we create a for loop to iterate through the string *path*. The *steps* parameter will hold the # of steps taken by the hiker, we can also view this as the # of indices included in the string *path*, since strings can be treated as arrays. *steps* will serve as the limit our for loop should not pass.
 
 Inside the loop, our first if statement will check to see whether the current element in the string *path* == 'U' (a step up). In which case we'll increment *seaLevel* by 1.
-The else statement implies that if *path[i] != 'U'*, then it must be == 'D', In which case we'll decrement *seaLevel* by 1.
+The else statement implies that if *path[i] != 'U'*, then it must be == 'D', in which case we'll decrement *seaLevel* by 1.
 
-The final if statement will check to see if the current *seaLevel == 0* && *path[i] == 'U'*. As the problem states, this only occurs when the hiker has climbed out of a valley. So we increment the value *numOfValleys* by 1. Outside of the loop, we'll just return this same value to show the # of valleys the hiker has traversed.
+The final if statement will check to see if the current *seaLevel == 0* && *path[i] == 'U'*. As the problem states, this only occurs when the hiker has climbed out of a valley. So we increment the value *numOfValleys* by 1. Outside of the loop, we'll just return *numOfValleys* to show the total # of valleys the hiker has traversed.
 
