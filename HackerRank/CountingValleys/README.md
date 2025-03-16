@@ -53,7 +53,29 @@ The second line contains a single string *path*, of *steps* characters that desc
 ## My Solution
 
 ```c++
-
+int countingValleys(int steps, string path)
+{
+    int seaLevel = 0;
+    int numOfValleys = 0;
+    
+    for(int i = 0; i < steps; i++)
+    {
+        if(path[i] == 'U')
+        {
+            seaLevel++;
+        }
+        else
+        {
+            seaLevel--;
+        }
+        
+        if(seaLevel == 0 && path[i] == 'U')
+        {
+            numOfValleys++;
+        }
+    }
+    return numOfValleys;
+}
 ```
 
 ## Explanation
