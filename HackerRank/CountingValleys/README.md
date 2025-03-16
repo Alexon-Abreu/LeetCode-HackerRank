@@ -91,5 +91,5 @@ Then we create a for loop to interate through the string *path*. The *steps* par
 Inside the loop, our first if statment will check to see whether the the current element in the string *path* == 'U' (a step up). In which case we'll increment *seaLevel* by 1.
 The else statment implies that if *path[i] != 'U'*, then it must be == 'D', In which case we'll decrement *seaLevel* by 1.
 
-
+The final if statment will check to see if the current *seaLevel == 0* && *path[i] == 'U'*. As the problem states, this only occurs when the hiker has climbed out of a valley. So we incremment the value *numOfValleys* by 1. Outside of the loop we'll just return this same value to show the # of valleys the hiker has traveresed.
 
