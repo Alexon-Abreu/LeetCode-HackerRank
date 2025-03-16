@@ -80,4 +80,16 @@ int countingValleys(int steps, string path)
 
 ## Explanation
 
-The goal is to return the number of times a hiker has traversed a valley. The problem explains that a valley is defined as a "sequence of consecutive steps below sea level, starting with a step down from sea level and ending with a step up to sea level". This is a pretty simple problem, all we have to do is keep track of the sea level. If the hiker takes a step down 'D', then we would decrement the value of the sea level and increment otherwise.
+The goal is to return the number of times a hiker has traversed a valley. The problem explains that a valley is defined as a "sequence of consecutive steps below sea level, starting with a step down from sea level and ending with a step up to sea level". 
+
+This is a pretty simple problem, all we have to do is keep track of the sea level. If the hiker takes a step down 'D', then we would decrement the value of the sea level and increment otherwise.
+
+So I start by declared and instantiated the values of *seaLevel* and *numOfValleys* to 0, these will keep track of the current sea level and the # of valleys traversed.
+
+Then we create a for loop to interate through the string *path*. The *steps* paramter will hold the # of steps taken by the hiker, we can also view this as the # of indices included in the string *path*, since can be treated as arrays. *steps* will serve as the limit our for loop should not pass.
+
+Inside the loop, our first if statment will check to see whether the the current element in the string *path* == 'U' (a step up). In which case we'll increment *seaLevel* by 1.
+The else statment implies that if *path[i] != 'U'*, then it must be == 'D', In which case we'll decrement *seaLevel* by 1.
+
+
+
