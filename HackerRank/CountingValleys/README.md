@@ -80,4 +80,4 @@ int countingValleys(int steps, string path)
 
 ## Explanation
 
-The goal is to return the number of times a hiker has traversed a valley. The problem explains that a valley is defined as a "sequence of consecutive steps below sea level, starting with a step down from sea level and ending with a step up to sea level".
+The goal is to return the number of times a hiker has traversed a valley. The problem explains that a valley is defined as a "sequence of consecutive steps below sea level, starting with a step down from sea level and ending with a step up to sea level". This is a pretty simple problem, all we have to do is keep track of the sea level. If the hiker takes a step down 'D', then we would decrement the value of the sea level and increment otherwise.
