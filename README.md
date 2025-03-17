@@ -4,8 +4,8 @@ My C++ solutions for HackerRank problems
 
 | Title              | Difficulty | Solution   |
 |--------------------|------------|------------|
-|  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |
 |  Counting Valleys    | Easy       | [Solution](HackerRank/CountingValleys)  |
+|  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |
 
 
 
