@@ -1,4 +1,4 @@
-# 1557. Minimum Number of Vertices to Reach All Nodes (Medium)
+# 1557. Minimum Number of Vertices to Reach All Nodes (Medium/In Progress)
 
 Given a **directed acyclic graph**, with `n` vertices numbered from `0` to `n-1`, and an array `edges` where `edges[i] = [from[i], to[i]]` represents a directed edge from node from[i] to node to[i].
 
