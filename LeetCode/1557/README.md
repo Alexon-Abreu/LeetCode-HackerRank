@@ -32,3 +32,4 @@ Explanation: It's not possible to reach all the nodes from a single vertex. From
 ```
 
 ## Explanation
+Since we're dealing with a directed graph and not all nodes will have an incoming edge, the only way to reach these unpopular nodes is by explicitly targeting them. All other nodes will have an incoming edge, which can be reached through "unpopular nodes" (nodes with no incoming edges). The problem is to find the smallest set of vertices from which all nodes in the graph are reachable. In a typical graph, nodes with no incoming edges are usually less common than nodes with incoming edges. So by starting at nodes with no incoming edges, we can almost always guarantee that it is the smallest set of vertices to reach all other nodes. Thus, the problem can be read as, which nodes have no incoming edges.
