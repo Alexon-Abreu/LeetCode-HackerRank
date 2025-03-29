@@ -30,3 +30,5 @@ Explanation: It's not possible to reach all the nodes from a single vertex. From
 ```c++
 
 ```
+
+## Explanation
