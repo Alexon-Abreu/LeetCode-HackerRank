@@ -28,7 +28,33 @@ Explanation: It's not possible to reach all the nodes from a single vertex. From
 ## My Solution
 
 ```c++
+#include <iostream>
+using namespace std;
 
+class Solution {
+public:
+
+    vector<int> findSmallestSetOfVertices(int n, vector<vector<int>>& edges)
+    {
+        vector<int> nodeWithoutIncomingEdges;
+        vector<bool> hasIncomingEdge(n, false);
+
+        for(const auto& edge : edges)
+        {
+            hasIncomingEdge[edge[1]] = true;
+        }
+
+        for(int i = 0; i < n; i++)
+        {
+            if(!hasIncomingEdge[i])
+            {
+                nodeWithoutIncomingEdges.push_back(i);
+            }
+        }
+
+        return nodeWithoutIncomingEdges;
+    }
+};
 ```
 
 ## Explanation
