@@ -20,7 +20,7 @@ Output: [0,3]
 ```c++
 Input: n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]
 Output: [0,2,3]
-Explanation: Notice that vertices 0, 3 and 2 are not reachable from any other node, so we must include them. Also any of these vertices can reach nodes 1 and 4.
+"Explanation: Notice that vertices 0, 3 and 2 are not reachable from any other node, so we must include them. Also any of these vertices can reach nodes 1 and 4."
 ```
 
 #### Constraints:
