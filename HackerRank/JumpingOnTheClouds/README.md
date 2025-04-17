@@ -35,9 +35,11 @@ The first line contains an integer n, the total number of clouds.
 The second line contains n space-separated binary integers describing clouds c[i] where 0 ≤ i < n.
 
 #### Constraints:
+```c++
 • 2 ≤ n ≤ 100
 • c[i] E {0,1}
 • c[0] = c[n - 1] = 0
+```
 
 
 ### Sample Input
