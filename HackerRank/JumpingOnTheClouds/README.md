@@ -26,16 +26,15 @@ jumpingOnClouds has the following parameter(s):
 ```
 
 #### Returns
-int: the number of valleys traversed
+• int: the minimum number of jumps required
 
 
 #### Input Format
-The first line contains an integer *steps*, the number of steps in the hike.
-
-The second line contains a single string *path*, of *steps* characters that describe the path.
+The first line contains an integer n, the total number of clouds. 
+The second line contains n space-separated binary integers describing clouds c[i] where 0 ≤ i < n.
 
 #### Constraints:
-`2 <= steps <= 10^6`
+`2 <= n <= 100`
 
 `path[i] includes {U D}`
 
