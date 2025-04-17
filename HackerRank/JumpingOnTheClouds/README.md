@@ -20,9 +20,9 @@ They could follow these two paths: 0 → 2 → 4 → 6 or 0 → 2 → 3 → 4 �
 ```c++
 Complete the jumpingOnClouds function in the editor below.
 
-countingValleys has the following parameter(s):
-- int steps: the number of steps on the hike
-- string path: a string describing the path
+jumpingOnClouds has the following parameter(s):
+
+• int c[n]: an array of binary integers
 ```
 
 #### Returns
