@@ -26,29 +26,37 @@ jumpingOnClouds has the following parameter(s):
 ```
 
 #### Returns
+```c++
 • int: the minimum number of jumps required
-
+```
 
 #### Input Format
+```c++
 The first line contains an integer n, the total number of clouds. 
 
 The second line contains n space-separated binary integers describing clouds c[i] where 0 ≤ i < n.
+```
 
 #### Constraints:
 ```c++
 • 2 ≤ n ≤ 100
+
 • c[i] E {0,1}
+
 • c[0] = c[n - 1] = 0
+
+E = is in
 ```
 
 
 ### Sample Input
-`8`
-
-`UDDDUDUU`
+```c++
+7
+0010010
+```
 
 ### Sample Output
-`1`
+4
 
 ## My Solution
 
