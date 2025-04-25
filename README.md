@@ -4,6 +4,7 @@ My C++ solutions for HackerRank problems
 
 | Title              | Difficulty | Solution   |
 |--------------------|------------|------------|
+|  Jumping on the Clouds    | Easy       | [Solution](HackerRank/JumpingOnTheClouds)  |
 |  Counting Valleys    | Easy       | [Solution](HackerRank/CountingValleys)  |
 |  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |
 
