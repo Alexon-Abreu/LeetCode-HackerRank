@@ -89,3 +89,8 @@ int jumpingOnClouds(vector<int> c)
 
 ## Explanation
 
+It is always possible to win the game.
+ 
+Which means that the first & last indexes should be cumulus clouds (0, aka safe clouds).
+
+The point of the game is to get to the last cloud in the least amount of jumps possible.
