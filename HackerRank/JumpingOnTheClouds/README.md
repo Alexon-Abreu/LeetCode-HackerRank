@@ -18,11 +18,10 @@ They could follow these two paths: 0 → 2 → 4 → 6 or 0 → 2 → 3 → 4 �
 
 #### Function Description
 
-```c++
 Complete the jumpingOnClouds function in the editor below.
 
 jumpingOnClouds has the following parameter(s):
-
+```c++
 • int c[n]: an array of binary integers
 ```
 
@@ -32,11 +31,11 @@ jumpingOnClouds has the following parameter(s):
 ```
 
 #### Input Format
-```c++
+
 The first line contains an integer n, the total number of clouds. 
 
 The second line contains n space-separated binary integers describing clouds c[i] where 0 ≤ i < n.
-```
+
 
 #### Constraints:
 ```c++
@@ -53,6 +52,7 @@ E = is in
 ### Sample Input
 ```c++
 7
+
 0010010
 ```
 
