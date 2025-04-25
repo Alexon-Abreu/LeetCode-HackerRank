@@ -94,3 +94,6 @@ It is always possible to win the game.
 Which means that the first & last indexes should be cumulus clouds (0, aka safe clouds).
 
 The point of the game is to get to the last cloud in the least amount of jumps possible.
+The most we can jump at once is 2, and because we're guaranteed to win, we must always be able to jump, even if its just 1.
+
+With that in mind, we should start by checking to see if we can jump by 2, in other words, does position + 2 == 0. Otherwise, our only other move is to jump by 1.
