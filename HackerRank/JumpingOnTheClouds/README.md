@@ -64,7 +64,27 @@ E = is in
 ## My Solution
 
 ```c++
-
+int jumpingOnClouds(vector<int> c)
+{
+    int jumps = 0;
+    int pos = 0;
+    
+    while(pos < c.size()-1)
+    {
+        if(pos + 2 < c.size() && c[pos+2] == 0)
+        {
+            pos+=2;
+            jumps++;
+        }
+        else
+        {
+            pos+=1;
+            jumps++;
+        }
+    }
+    
+    return jumps;
+}
 ```
 
 ## Explanation
