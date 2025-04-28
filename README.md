@@ -5,8 +5,8 @@ My C++ solutions for HackerRank problems
 | Title              | Difficulty | Solution   | Langauge   |
 |--------------------|------------|------------|------------|
 |  Jumping on the Clouds    | Easy       | [Solution](HackerRank/JumpingOnTheClouds)  |  C++ & Python  |
-|  Counting Valleys    | Easy       | [Solution](HackerRank/CountingValleys)  |  C++ & Python  |
-|  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |  C++ & Python  |
+|  Counting Valleys    | Easy       | [Solution](HackerRank/CountingValleys)  |  C++  |
+|  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |  C++  |
 
 
 
