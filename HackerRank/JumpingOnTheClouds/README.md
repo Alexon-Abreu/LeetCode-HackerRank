@@ -62,6 +62,8 @@ E = is in
 ```
 
 ## My Solution
+```python
+```
 
 ```c++
 int jumpingOnClouds(vector<int> c)
