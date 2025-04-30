@@ -62,7 +62,7 @@ E = is in
 ```
 
 ## My Solution
-python solution:
+Python solution:
 ```python
 def jumpingOnClouds(c):
     num_of_jumps = 0
@@ -78,7 +78,7 @@ def jumpingOnClouds(c):
     return num_of_jumps
 ```
 
-c++ solution:
+C++ solution:
 ```c++
 int jumpingOnClouds(vector<int> c)
 {
