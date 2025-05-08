@@ -55,6 +55,7 @@ Python solution:
 ```python
 ```
 
+C++ solution:
 ```c++
 int countingValleys(int steps, string path)
 {
