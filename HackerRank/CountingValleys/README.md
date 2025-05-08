@@ -53,6 +53,20 @@ The second line contains a single string *path*, of *steps* characters that desc
 ## My Solution
 Python solution:
 ```python
+def countingValleys(steps, path):
+    sea_level = 0
+    num_of_valleys = 0
+    
+    for step in path:
+        if step == 'U':
+            sea_level+=1
+        elif step == 'D':
+            sea_level-=1
+        
+        if sea_level == 0 and step == 'U':
+            num_of_valleys+=1
+
+    return num_of_valleys
 ```
 
 C++ solution:
