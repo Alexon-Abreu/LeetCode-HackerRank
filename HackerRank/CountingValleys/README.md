@@ -51,6 +51,9 @@ The second line contains a single string *path*, of *steps* characters that desc
 `1`
 
 ## My Solution
+Python solution:
+```python
+```
 
 ```c++
 int countingValleys(int steps, string path)
