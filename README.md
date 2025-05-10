@@ -1,7 +1,5 @@
 # HackerRank Problems
 
-HackerRank problems
-
 | Title              | Difficulty | Solution   | Langauge   |
 |--------------------|------------|------------|------------|
 |  Jumping on the Clouds    | Easy       | [Solution](HackerRank/JumpingOnTheClouds)  |  C++ & Python  |
