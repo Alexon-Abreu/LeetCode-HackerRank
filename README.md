@@ -1,4 +1,4 @@
-# HackerRank
+# HackerRank Problems
 
 HackerRank problems
 
@@ -10,9 +10,7 @@ HackerRank problems
 
 
 
-# LeetCode
-
-LeetCode problems
+# LeetCode Problems
 
 | #   | Title              | Difficulty | Solution   |
 |-----|--------------------|------------|------------|
