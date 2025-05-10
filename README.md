@@ -1,6 +1,6 @@
 # HackerRank
 
-My C++ solutions for HackerRank problems
+HackerRank problems
 
 | Title              | Difficulty | Solution   | Langauge   |
 |--------------------|------------|------------|------------|
@@ -12,7 +12,7 @@ My C++ solutions for HackerRank problems
 
 # LeetCode
 
-My C++ Solutions for LeetCode Data Structures and Algorithms
+LeetCode problems
 
 | #   | Title              | Difficulty | Solution   |
 |-----|--------------------|------------|------------|
