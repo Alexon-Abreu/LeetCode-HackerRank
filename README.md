@@ -2,6 +2,7 @@
 
 | Title              | Difficulty | Solution   | Langauge   |
 |--------------------|------------|------------|------------|
+|  Repeated String    |        | []()  |    |
 |  Jumping on the Clouds    | Easy       | [Solution](HackerRank/JumpingOnTheClouds)  |  C++ & Python  |
 |  Counting Valleys    | Easy       | [Solution](HackerRank/CountingValleys)  |  C++ & Python  |
 |  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |  C++  |
