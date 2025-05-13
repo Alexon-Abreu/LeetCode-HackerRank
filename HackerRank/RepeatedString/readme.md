@@ -65,12 +65,17 @@ The first *n* = 10 letters of the infinite string are `abaabaabaa`. Because ther
 ## My Solution
 Python solution:
 ```python
+def repeatedString(s, n):
+    # Write your code here
+    count_of_a_in_s = s.count('a') # how many a's are in the string s
+    repeats_of_s_in_n = n//len(s)  # how many times s fits in n
+    
+    remainder = n % len(s) # checking to see how many characters are left over
+    leftover_count = s[: remainder].count('a') # counting the num of a's in the remainder string
 
-```
-
-C++ solution:
-```c++
-
+    total_num_of_a = (count_of_a_in_s * repeats_of_s_in_n) + leftover_count
+    
+    return total_num_of_a
 ```
 
 ## Explanation
