@@ -80,22 +80,21 @@ def repeatedString(s, n):
 
 ## Explanation
 
-```Python
-# The goal is to find how many a's are in a substring of an infinte string, where s is our string and n is the number of character to consider in the string.
+ The goal is to find how many a's are in a substring of an infinte string, where s is our string and n is the number of character to consider in the string.
 
-# because s itself is not already an infinite format, I decided to multiply s to fully conform with the length of the substring we're considering.
+ because s itself is not already an infinite format, I decided to multiply s to fully conform with the length of the substring we're considering.
  
-# To begin, we count the # of times letter 'a' appears in the original string s
-# Then we find out how many times we can repeat string s to fill the length of the required substring, we do this by using dividing n by the length of s.
+ To begin, we count the # of times letter 'a' appears in the original string s
+ Then we find out how many times we can repeat string s to fill the length of the required substring, we do this by using dividing n by the length of s.
  
-# so far the total number of a's is (the # of a's in s) * (the # of times s fits in n)
-# but we also have to account for any remainder characters of s, because it wont always be the case we the s perfectly fit inside of n, and even # of times.
+ so far the total number of a's is (the # of a's in s) * (the # of times s fits in n)
+ but we also have to account for any remainder characters of s, because it wont always be the case we the s perfectly fit inside of n, and even # of times.
 
-# so we need to find the remainder of n/s, which we can do by using modulo, n % len(s)
-# Once we have the remainder, we can go ahead and set up a variable, leftover_count, that counts the number of leftover a's by slicing s from 0 to its remainder.
+ so we need to find the remainder of n/s, which we can do by using modulo, n % len(s)
+ Once we have the remainder, we can go ahead and set up a variable, leftover_count, that counts the number of leftover a's by slicing s from 0 to its remainder.
 
-# It's really not intuitive to do it this way, but because we're dealing with a repeating string, s[0] will likely be equivalent to its remainder character, s[remainder].
+ It's really not intuitive to do it this way, but because we're dealing with a repeating string, s[0] will likely be equivalent to its remainder character, s[remainder].
 
-# Once we have the leftover_count, we add that to the total # of a's in the substring
-# total_num_of_a = (count_of_a_in_s * repeats_of_s_in_n) + leftover_count
+ Once we have the leftover_count, we add that to the total # of a's in the substring
+ total_num_of_a = (count_of_a_in_s * repeats_of_s_in_n) + leftover_count
 ```
