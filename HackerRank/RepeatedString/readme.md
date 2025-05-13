@@ -63,7 +63,7 @@ aba
 The first *n* = 10 letters of the infinite string are `abaabaabaa`. Because there are 7 a's, we return 7.
 
 ## My Solution
-Python solution:
+
 ```python
 def repeatedString(s, n):
     # Write your code here
@@ -97,4 +97,3 @@ def repeatedString(s, n):
 
  Once we have the leftover_count, we add that to the total # of a's in the substring
  total_num_of_a = (count_of_a_in_s * repeats_of_s_in_n) + leftover_count
-```
