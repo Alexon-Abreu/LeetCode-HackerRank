@@ -26,7 +26,7 @@ Output: ["h","a","n","n","a","H"]
 
 
 ## My Solution
-
+c++ solution:
 ```c++
 class Solution {
 public:
