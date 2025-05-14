@@ -27,7 +27,8 @@ Output: ["h","a","n","n","a","H"]
 
 ## My Solution
 python solution:
-
+```python
+```
 c++ solution:
 ```c++
 class Solution {
