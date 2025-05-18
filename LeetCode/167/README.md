@@ -67,3 +67,10 @@ class Solution:
 ```
 
 ## Explanation
+
+The goal is to find two numbers in an array whose sum is equal to the given target.
+
+The array itself is already sorted in a non-decreasing order, aka ascending order.
+
+For this problem we can use a common technique called `Two Pointers`. This is when we set up two variables, i and j, or left and right, to move along an iterable like an array or string.
+
