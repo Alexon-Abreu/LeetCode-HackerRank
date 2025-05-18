@@ -13,7 +13,7 @@
 
 | #   | Title              | Difficulty | Solution   | Langauge   |
 |-----|--------------------|------------|------------|------------|
-| 167   |  Two Sum II - Input Array Is Sorted    | Medium       | [Solution](LeetCode/)  |    |
+| 167   |  Two Sum II - Input Array Is Sorted    | Medium       | [Solution](LeetCode/167)  |    |
 | 1557  |  Minimum Number of Vertices to Reach All Nodes    | Medium       | [Solution](LeetCode/1557)  |  C++  |
 | 713   |  Subarray Product Less Than K    | Medium       | [Solution](LeetCode/713)  |  C++  |
 | 977   |  Squares of a Sorted Array    | Easy       | [Solution](LeetCode/977)  |  C++  |
