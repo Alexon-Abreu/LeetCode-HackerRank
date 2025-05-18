@@ -70,7 +70,12 @@ class Solution:
 
 The goal is to find two numbers in an array whose sum is equal to the given target.
 
-The array itself is already sorted in a non-decreasing order, aka ascending order.
+The array itself is already **sorted in a non-decreasing order**, aka ascending order.
 
-For this problem we can use a common technique called `Two Pointers`. This is when we set up two variables, i and j, or left and right, to move along an iterable like an array or string.
+For this problem we can use a common technique called `Two Pointers`. This is where we set up two variables, i and j, or left and right, to move along an iterable like an array or string.
 
+For this problem we can start by setting the left and right variable to the start and end of the array. curr, our total/sum variable, will store the sum of the values the pointers are currently pointing to.
+
+The rest of this problem is done inside a while loop (while left < right), we keep going until the left and right pointer meet each other. 
+
+It's **important to note** that because the array is in ascending order, incrementing the left variable "permanently" increases the value the left pointer points to, and decrementing the right varible "permanently" decreases the value the right pointer points to.
