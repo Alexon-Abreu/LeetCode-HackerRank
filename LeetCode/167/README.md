@@ -79,3 +79,7 @@ For this problem we can start by setting the left and right variable to the star
 The rest of this problem is done inside a while loop (while left < right), we keep going until the left and right pointer meet each other. 
 
 It's **important to note** that because the array is in ascending order, incrementing the left variable "permanently" increases the value the left pointer points to, and decrementing the right varible "permanently" decreases the value the right pointer points to.
+
+So if we set our curr variable equal to the beginning sum of our left and right pointers (curr = numbers[left] + numbers[right]), we could use that value to determine whether we have to increment our left pointer or decrement our right pointer. if curr < target, then we must increment the left pointer to increase the value of curr. Otherwise, we simply decrement the right pointer to decrease the value of curr.
+
+In the case where our initial curr value is equal to the target, or when curr finanlly reaches the target value, we would just return those indicies + 1, since we're dealing with a a 1-indexed array.
