@@ -28,7 +28,7 @@ Output: false
 
 
 ## My Solution
-python solution:
+
 ```python
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
@@ -41,3 +41,17 @@ class Solution:
         
         return i == len(s)
 ```
+
+## Explanation
+
+The question asks us to find out whether the first word s appears in the second word t, in the same order (i.e. car in scarf or tea in steam).
+
+We can use a simple two pointer approach to solve this problem in linear time.
+
+To begin, we set i and j equal to 0, these pointers will give us the letter at each index of the word.
+
+We create a while loop with a condition to keep running while i and j are less than the size of s and t.
+
+Inside the loop, we have an if statement, if we find at any point that s[i] == t[j], then we should increment i to point to the next character in s. Regardless of whether we found a match on that index, we still increment j to point to the next character in t.
+
+At the end, we return the boolean value of i == len(s). if this is true, then we know that we have found every letter from s in t in order.
