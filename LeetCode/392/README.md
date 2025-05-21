@@ -21,13 +21,23 @@ Output: false
 #### Constraints:
 
 `0 <= s.length <= 100`
+
 `0 <= t.length <= 104`
+
 `s` and `t` consist only of lowercase English letters.
 
 
 ## My Solution
 python solution:
 ```python
+class Solution:
+    def isSubsequence(self, s: str, t: str) -> bool:
+        i = j = 0
 
-```
+        while i < len(s) and j < len(t):
+            if s[i] == t[j]:
+                i+=1
+            j+=1
+        
+        return i == len(s)
 ```
