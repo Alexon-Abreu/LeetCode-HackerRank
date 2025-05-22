@@ -5,7 +5,7 @@ Given an array of integers `nums` and an integer `k`, return the number of conti
 
 #### Example 1:
 
-```c++
+```python
 Input: nums = [10,5,2,6], k = 100
 Output: 8
 Explanation: The 8 subarrays that have product less than 100 are:
@@ -16,7 +16,7 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 
 #### Example 2:
 
-```c++
+```python
 Input: nums = [1,2,3], k = 0
 Output: 0
 ```
@@ -52,6 +52,7 @@ class Solution:
         
         return ans
 ```
+
 c++ solution
 ```c++
 class Solution
