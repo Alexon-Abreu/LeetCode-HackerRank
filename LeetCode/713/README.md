@@ -33,7 +33,24 @@ Output: 0
 python solution
 
 ```python
+class Solution:
+    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
+        left = ans = 0
+        curr = 1 # needs to be 1 since we're dealing with multiplication
 
+        if k <= 1:
+            return 0
+
+        for right in range(len(nums)):
+            curr *= nums[right]
+
+            while curr >= k and left <= right:
+                curr //= nums[left]
+                left+=1
+            
+            ans += right-left+1
+        
+        return ans
 ```
 c++ solution
 ```c++
