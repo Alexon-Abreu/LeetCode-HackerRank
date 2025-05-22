@@ -32,6 +32,9 @@ Output: 0
 ## My Solution
 python solution
 
+```python
+
+```
 c++ solution
 ```c++
 class Solution
