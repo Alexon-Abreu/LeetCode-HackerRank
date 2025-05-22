@@ -30,7 +30,9 @@ Output: 0
 
 
 ## My Solution
+python solution
 
+c++ solution
 ```c++
 class Solution
 {
