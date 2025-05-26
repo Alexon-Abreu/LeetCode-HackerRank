@@ -29,7 +29,18 @@ Output: [4,9,9,49,121]
 
 ## My Solution
 python solution
-
+```python
+class Solution:
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        sorted_squares = []
+        
+        for num in nums:
+            sorted_squares.append(pow(num,2))
+            
+        sorted_squares.sort()
+        
+        return sorted_squares  
+```
 c++ solution
 ```c++
 class Solution {
