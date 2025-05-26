@@ -17,7 +17,7 @@
 | 1557  |  Minimum Number of Vertices to Reach All Nodes    | Medium       | [Solution](LeetCode/1557)  |  C++  |
 | 713   |  Subarray Product Less Than K    | Medium       | [Solution](LeetCode/713)  |  Python & C++  |
 | 392   |  Is Subsequence    | Easy       | [Solution](LeetCode/392)  |  Python  |
-| 977   |  Squares of a Sorted Array    | Easy       | [Solution](LeetCode/977)  |  C++  |
+| 977   |  Squares of a Sorted Array    | Easy       | [Solution](LeetCode/977)  |  Python & C++  |
 | 344   |  Reverse String    | Easy       | [Solution](LeetCode/344)  |  Python & C++  |
 
 
