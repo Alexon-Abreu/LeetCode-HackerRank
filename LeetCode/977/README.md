@@ -41,6 +41,7 @@ class Solution:
         
         return sorted_squares  
 ```
+
 c++ solution
 ```c++
 class Solution {
@@ -60,3 +61,13 @@ public:
     }
 };
 ```
+
+## Explanation
+
+Using the conventional two pointer method to solve this problem is not a bad idea, but I think theres a more simpler approach...
+
+We could simply create a new array called `sorted_squares`, and create a for loop that copies the original `num` into `sorted_squares` squared.
+
+This is done by using the append and pow method => `sorted_squares.append(pow(num,2))`.
+
+lastly we can use the sort method to sort our new array of squared numbers and return that array.
