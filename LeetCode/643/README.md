@@ -56,4 +56,5 @@ In the first for loop we iterate through the first `k` elements of `nums` and ad
 
 Once we have the total of the first k elements in curr, we can create another for loop so we can slide our window, appending the value of the next element and popping the value of last element from the running total in `curr` like so `curr += nums[i] - nums[i-k]`. Doing this allows use to store the total value of a subarray in nums, with length of k at each iteration.
 
+Within each iteration, we compare the maximum between our previous max in `ans` and our current window total in `curr`, `ans = max(ans, curr)`.
 
