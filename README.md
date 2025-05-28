@@ -1,14 +1,3 @@
-# HackerRank Problems
-
-| Title              | Difficulty | Solution   | Langauge   |
-|--------------------|------------|------------|------------|
-|  Repeated String    | Easy       | [Solution](HackerRank/RepeatedString)  |  Python  |
-|  Jumping on the Clouds    | Easy       | [Solution](HackerRank/JumpingOnTheClouds)  |  C++ & Python  |
-|  Counting Valleys    | Easy       | [Solution](HackerRank/CountingValleys)  |  C++ & Python  |
-|  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |  C++  |
-
-
-
 # LeetCode Problems
 
 | #   | Title              | Difficulty | Solution   | Langauge   |
@@ -21,3 +10,11 @@
 | 344   |  Reverse String    | Easy       | [Solution](LeetCode/344)  |  Python & C++  |
 
 
+# HackerRank Problems
+
+| Title              | Difficulty | Solution   | Langauge   |
+|--------------------|------------|------------|------------|
+|  Repeated String    | Easy       | [Solution](HackerRank/RepeatedString)  |  Python  |
+|  Jumping on the Clouds    | Easy       | [Solution](HackerRank/JumpingOnTheClouds)  |  C++ & Python  |
+|  Counting Valleys    | Easy       | [Solution](HackerRank/CountingValleys)  |  C++ & Python  |
+|  Sales by Match    | Easy       | [Solution](HackerRank/SalesByMatch)  |  C++  |
