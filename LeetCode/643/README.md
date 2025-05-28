@@ -48,3 +48,4 @@ class Solution:
 
 ## Explanation
 
+For this problem we are finding a contiguous subarray (meaning the elements must be next to each other and in order) of size k and store the average of all elements in that subarray. We then want to return the maximum average subarray that we recorded.
