@@ -58,3 +58,4 @@ Once we have the total of the first k elements in curr, we can create another fo
 
 Within each iteration, we compare the maximum between our previous max in `ans` and our current window total in `curr`, `ans = max(ans, curr)`.
 
+After the second for loop terminates, we'll return `ans / k`. Where `ans` will hold the maximum total recorded of a subarray and divide that by `k`, the length of the subarray, to get the maximum average subarray.
