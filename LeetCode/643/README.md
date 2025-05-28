@@ -50,11 +50,11 @@ class Solution:
 
 For this problem we are finding a contiguous subarray (meaning elements must be next to each other and in order) of size `k` and store the average of all elements from that subarray. We then want to return the maximum average subarray that we recorded.
 
-First thing I do is initialize `curr` to 0. `curr` will hold the total of k elements from `nums` as we slide our window.
+First thing I did was initialize `curr` to 0. `curr` will hold the total of k elements from `nums` as we slide our window.
 
 In the first for loop we iterate through the first `k` elements of `nums` and add those values to `curr`. We assign `ans` to `curr` to hold this value for us, and give us the flexibility to manipulate `curr` with out losing the original total.
 
-Once we have the total of the first k elements in curr, we can create another for loop so we can slide our window, appending the value of the next element and popping the value of last element from the running total in `curr` like so `curr += nums[i] - nums[i-k]`. Doing this allows use to store the total value of a subarray in nums, with length of k at each iteration.
+Once we have the total of the first `k` elements in `curr`, we can create another for loop so we can slide our window, appending the value of the next element and popping the value of last element from the running total like so `curr += nums[i] - nums[i-k]`. Doing this allows us to store the total value of a subarray, with length of `k` at each iteration.
 
 Within each iteration, we compare the maximum between our previous max in `ans` and our current window total in `curr`, `ans = max(ans, curr)`.
 
