@@ -48,4 +48,8 @@ class Solution:
 
 ## Explanation
 
-For this problem we are finding a contiguous subarray (meaning the elements must be next to each other and in order) of size k and store the average of all elements in that subarray. We then want to return the maximum average subarray that we recorded.
+For this problem we are finding a contiguous subarray (meaning the elements must be next to each other and in order) of size `k` and store the average of all elements in that subarray. We then want to return the maximum average subarray that we recorded.
+
+First thing I do is initialize `curr` to 0. `curr` will hold the total of k elements from `nums` as we slide our window.
+
+In the first for loop we iterate through the first `k` elements of `nums` and add those values to `curr`.
