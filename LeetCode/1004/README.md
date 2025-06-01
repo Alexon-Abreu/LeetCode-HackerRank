@@ -55,3 +55,10 @@ class Solution:
 
 ## Explanation
 
+The problem is essentially asking us to find the longest subarray that contains at most `k` `0`'s.
+
+A great approach to use is the concept of a sliding window. As we move across the array we can keep track of how many `0`'s we've encountered.
+If we reach our `k` limit of `0`'s, then the only way to remove any `0`'s is the shrink the window from the left side of the window.
+
+And we essentially keeping doing this till we reach the end of the array, recording the length of the subarray at each iteration and storing the max.
+
