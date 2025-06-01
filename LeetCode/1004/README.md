@@ -66,3 +66,4 @@ So first I instantiated `left`, `curr`, and `ans` to 0. `left` will hold the ind
 
 In the first for loop we use `right` as our counter variable, and if `nums[right] == 0`, then we increment `curr` by 1.
 
+While `curr > k`, if `nums[left] == 0`, then we should decrement `curr` and increment `left` by 1 regarless of if `nums[left] == 0` or not.
