@@ -62,3 +62,7 @@ If we reach our `k` limit of `0`'s, then the only way to remove any `0`'s is the
 
 And we essentially keeping doing this till we reach the end of the array, recording the length of the subarray at each iteration and storing the max.
 
+So first I instantiated `left`, `curr`, and `ans` to 0. `left` will hold the index for the left bound of our window, `curr` hold the current amount of `0`'s we encounter, and `ans` will hold the maximum length of a subarray at each iteration.
+
+In the first for loop we use `right` as our counter variable, and if `nums[right] == 0`, then we increment `curr` by 1.
+
