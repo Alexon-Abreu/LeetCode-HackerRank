@@ -67,3 +67,5 @@ So first I instantiated `left`, `curr`, and `ans` to 0. `left` will hold the ind
 In the first for loop we use `right` as our counter variable, and if `nums[right] == 0`, then we increment `curr` by 1.
 
 While `curr > k`, if `nums[left] == 0`, then we should decrement `curr` and increment `left` by 1 regarless of if `nums[left] == 0` or not.
+
+At the end of each interation, we set ans = to the max length of the subarray. By the end of the function, we'll return the length of the longest subarray that contains at most `k` `0`'s.
