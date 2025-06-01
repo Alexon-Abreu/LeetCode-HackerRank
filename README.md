@@ -2,7 +2,7 @@
 
 | #   | Title              | Difficulty | Solution   | Langauge   |
 |-----|--------------------|------------|------------|------------|
-| 1004   |  Max Consecutive Ones III    | Medium       | [Solution](LeetCode/1004)  |  Python  |
+| 1004  |  Max Consecutive Ones III    | Medium       | [Solution](LeetCode/1004)  |  Python  |
 | 167   |  Two Sum II - Input Array Is Sorted    | Medium       | [Solution](LeetCode/167)  |  Python  |
 | 1557  |  Minimum Number of Vertices to Reach All Nodes    | Medium       | [Solution](LeetCode/1557)  |  C++  |
 | 713   |  Subarray Product Less Than K    | Medium       | [Solution](LeetCode/713)  |  Python & C++  |
