@@ -36,11 +36,9 @@ There are two valid splits in nums:
 
 #### Constraints:
 
-``
+`2 <= nums.length <= 10^5`
 
-``
-
-``
+`-10^5 <= nums[i] <= 10^5`
 
 ## My Solution
 
