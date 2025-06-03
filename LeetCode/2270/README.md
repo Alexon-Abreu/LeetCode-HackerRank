@@ -60,7 +60,7 @@ class Solution:
 
 ## Explanation
 
-The problem asks us to find how many time we can partition the array, such that the left side of the array is greater than the right.
+The problem asks us to find how many times we can partition the array, such that the left side of the array is greater than the right.
 
 To begin, I instantiated `ans` and `left` to 0. `ans` will hold the total number of valid partitions recorded, and `left` will hold the total sum of the left side. `total` is set to the sum of all elements in the array.
 
