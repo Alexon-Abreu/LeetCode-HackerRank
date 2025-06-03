@@ -64,5 +64,9 @@ The problem asks us to find how many time we can partition the array, such that 
 
 To begin, I instantiated `ans` and `left` to 0. `ans` will hold the total number of valid partitions recorded, and `left` will hold the total sum of the left side. `total` is set to the sum of all elements in the array.
 
-I created a for loop, and made sure to to iterate through all indices except for the last one to always have a right side partition of the array.
+I created a for loop, and made sure to iterate through all indices except for the last one to always have a right side partition of the array.
+Inside the loop, we add the value of the first element to `left`, `left+=nums[i]`, and the `right` side will be equal to total minus the sum on the left side, `right = total - left`.
 
+If we find that the `left` partition is greater than the `right` partition, we should increment `ans` by 1.
+
+As the loop goes on we repeat the process, so that the left partiton steadily grows, if `left` is still > `right`, we increment `ans` again. At the end we'll return ans, which will hold the total number of valid ways we can split the given array.
