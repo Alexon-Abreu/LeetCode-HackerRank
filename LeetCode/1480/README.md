@@ -54,3 +54,6 @@ In a prefix sum algo, each element is a sum of all elements that came before it.
 
 We start creating an array called `prefix` and initialize it with the first element in `nums`, nums[0].
 
+We create a for loop ranging from index 1 to the last index, and at each iteration we append the last value in prefix + the current index in num, to the next index in `prefix`, `prefix.append(prefix[-1] + nums[i])`, giving us a running sum of the `nums` array.
+
+All thats left to do is return the `prefix` array.
