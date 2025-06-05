@@ -47,3 +47,10 @@ class Solution:
 ```
 
 ## Explanation
+
+To get the running sum of a 1d array, we can a prefix sum algorithm.
+
+In a prefix sum algo, each element is a sum of all elements that came before it.
+
+We start creating an array called `prefix` and initialize it with the first element in `nums`, nums[0].
+
