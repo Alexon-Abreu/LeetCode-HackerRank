@@ -15,7 +15,9 @@ Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 #### Example 2:
 
 ```Python
-
+Input: nums = [1,1,1,1,1]
+Output: [1,2,3,4,5]
+Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
 ```
 
 #### Constraints:
