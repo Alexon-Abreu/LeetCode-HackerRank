@@ -24,7 +24,9 @@ startValue = 4 | startValue = 5 | nums
 #### Example 2:
 
 ```Python
-
+Input: nums = [1,2]
+Output: 1
+Explanation: Minimum start value should be positive.
 ```
 
 #### Example 3:
