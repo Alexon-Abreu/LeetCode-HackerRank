@@ -57,3 +57,7 @@ class Solution:
 ```
 
 ## Explanation
+
+Theres a myriad of ways to solving this problem, but I think a very clever way is to find the smallest `total` value encountered during the running sum.
+
+If we know what the smallest `total` is, then we can take this value, flip it, add one to it, and use this as our `minStartValue`. This allows us to have a `minStartValue` that'll always result in a sum of 1 or greater throught the iteration.
