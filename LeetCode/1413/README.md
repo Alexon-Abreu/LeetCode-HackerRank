@@ -60,10 +60,10 @@ class Solution:
 
 Theres a myriad of ways to solving this problem, but I think a very clever way is to find the smallest `total` value encountered during the running sum.
 
-If we know what the smallest `total` is, then we can take this value, flip it, add one to it, and use this as our `minStartValue`. This allows us to have a `minStartValue` that'll always result in a sum of 1 or greater throught the iteration.
+If we know what the smallest `total` is, then we can take this value, negate it, add one to it, and use this as our `minStartValue`. This allows us to have a `minStartValue` that'll always result in a sum of 1 or greater throughout the iteration.
 
 We start by setting `minimum_value` and `total` == 0, then initiate a for loop.
 
-For `num` in `nums`, we add each `num` to `total`, `total+=num`. At each iteration, we check to see which if `total` is less than `minimum_value`, if so, set `minimum_value` = `total`, `minimum_value = min(minimum_value, total)`.
+For each `num` in the `nums` list, we add `num` to `total`, `total+=num`. At each iteration, we check to see which if `total` is less than `minimum_value`, if so, set `minimum_value` = `total`, `minimum_value = min(minimum_value, total)`.
 
-At the end we'll negate the value in `minimum_value` and add 1 to it. That way we elimate the negative value to 0, and by adding 1 we ensure that we'll always have a positive `minimum_value`, whose step by step sum is never less than 1.
+At the end we'll negate `minimum_value` and add 1 to it. That way we elimate the negative value to 0, and by adding 1 we ensure that we'll always have a positive `minimum_value`, whose step by step sum is never less than 1.
