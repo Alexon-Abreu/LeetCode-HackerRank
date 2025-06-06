@@ -38,9 +38,9 @@ Output: 5
 
 #### Constraints:
 
-``
+`1 <= nums.length <= 100`
 
-``
+`-100 <= nums[i] <= 100`
 
 ## My Solution
 
