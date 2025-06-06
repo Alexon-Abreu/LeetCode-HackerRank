@@ -32,7 +32,8 @@ Explanation: Minimum start value should be positive.
 #### Example 3:
 
 ```Python
-
+Input: nums = [1,-2,-3]
+Output: 5
 ```
 
 #### Constraints:
