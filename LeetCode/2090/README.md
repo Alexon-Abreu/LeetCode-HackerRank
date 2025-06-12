@@ -14,11 +14,6 @@
 
 ```
 
-#### Example 3:
-
-```Python
-
-```
 
 #### Constraints:
 
