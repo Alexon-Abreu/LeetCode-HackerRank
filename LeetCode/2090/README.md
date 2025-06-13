@@ -8,7 +8,7 @@ Build and return *an array `avgs` of length `n` where `avgs[i]` is the **k-radiu
 
 The **average** of `x` elements is the sum of the `x` elements divided by x, using **integer division**. The integer division truncates toward zero, which means losing its fractional part.
 
-For example, the average of four elements 2, 3, 1, and 5 is (2 + 3 + 1 + 5) / 4 = 11 / 4 = 2.75, which truncates to 2.
+For example, the average of four elements `2`, `3`, `1`, and `5` is `(2 + 3 + 1 + 5) / 4 = 11 / 4 = 2.75`, which truncates to `2`.
 
 #### Example 1:
 
