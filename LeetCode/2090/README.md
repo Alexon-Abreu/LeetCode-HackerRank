@@ -43,9 +43,11 @@ Explanation:
 
 #### Constraints:
 
-``
+`n == nums.length`
 
-``
+`1 <= n <= 10^5`
+
+`0 <= nums[i], k <= 1^5`
 
 ## My Solution
 
