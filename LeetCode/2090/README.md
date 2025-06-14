@@ -52,7 +52,33 @@ Explanation:
 ## My Solution
 
 ```Python
+class Solution:
+    def getAverages(self, nums: List[int], k: int) -> List[int]:
+        if k == 0:
+            return nums
 
+        window_size = 2*k + 1
+        avgs = [-1] * len(nums)
+
+        if window_size > len(nums):
+            return avgs
+        
+        prefix_sum = [0] * (len(nums)+1)
+
+        for i in range(len(nums)):
+            prefix_sum[i+1] = prefix_sum[i] + nums[i]
+
+        for i in range(k, len(nums)-k):
+            left_bound = i-k
+            right_bound = i+k
+
+            sub_array_sum = prefix_sum[right_bound+1] - prefix_sum[left_bound]
+
+            average = sub_array_sum // window_size
+
+            avgs[i] = average
+
+        return avgs
 ```
 
 ## Explanation
