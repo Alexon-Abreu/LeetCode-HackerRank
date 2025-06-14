@@ -34,6 +34,8 @@ Explanation:
   avg[0] = 100000 / 1 = 100000.
 ```
 
+#### Example 3:
+
 
 #### Constraints:
 
