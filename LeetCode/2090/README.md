@@ -36,6 +36,10 @@ Explanation:
 
 #### Example 3:
 
+Input: nums = [8], k = 100000
+Output: [-1]
+Explanation: 
+- avg[0] is -1 because there are less than k elements before and after index 0.
 
 #### Constraints:
 
