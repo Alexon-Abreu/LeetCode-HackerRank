@@ -27,7 +27,11 @@ Explanation:
 #### Example 2:
 
 ```Python
-
+Input: nums = [100000], k = 0
+Output: [100000]
+Explanation:
+- The sum of the subarray centered at index 0 with radius 0 is: 100000.
+  avg[0] = 100000 / 1 = 100000.
 ```
 
 
