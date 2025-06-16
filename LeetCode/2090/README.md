@@ -82,3 +82,7 @@ class Solution:
 ```
 
 ## Explanation
+
+So the main point in this problem is to build an array called `avgs` of length `n` where each element is a **k-radius average** for the subarray centered at index `i`.
+
+(explanation in progress..)
