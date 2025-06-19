@@ -85,3 +85,4 @@ class Solution:
 
 The problem is asking us to build an array called `avgs` of length `n` where each element is a **k-radius average** for the subarray centered at index `i`.
 
+The **k-radius average** for a subarray of `nums` **centered** at some index `i` with the **radius** `k` is the average of **all** elements in `nums` between the indices `i - k` (left side) and `i + k` (right side, **inclusive**).
