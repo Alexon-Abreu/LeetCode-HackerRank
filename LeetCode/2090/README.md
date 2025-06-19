@@ -86,3 +86,12 @@ class Solution:
 The problem is asking us to build an array called `avgs` of length `n` where each element is a **k-radius average** for the subarray centered at index `i`.
 
 The **k-radius average** for a subarray of `nums` **centered** at some index `i` with the **radius** `k` is the average of **all** elements in `nums` between the indices `i - k` (left side) and `i + k` (right side, **inclusive**).
+
+For example, say
+
+```Python
+nums = [7,4,3,9,1,8,5,2,6], and k = 3
+```
+
+That would mean that the first and last 3 indicies will be -1, because we must have at least k elements before each index.
+
