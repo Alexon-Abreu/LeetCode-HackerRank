@@ -97,4 +97,4 @@ That would mean that the first and last 3 indices will be -1, because we must ha
 
 Once we get to index 4, we will at least `k` elements to the left and right, and now we can calculate the **k-radius average** centered at the 4th index.
 
-We do this by adding together the k elements to the right of i (i-k), and to the left of i (i+k), and including i itself, and dividing that sum by the total # of elements we added.
+We do this by adding together the `k` elements to the right of `i` (`i-k`), and to the left of `i` (`i+k`), and including `i` itself, and dividing that sum by the total # of elements we added.
