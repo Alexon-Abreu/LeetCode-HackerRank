@@ -34,3 +34,14 @@ The ASCII values of the characters in s are: 'z' = 122, 'a' = 97. So, the score 
 
 `s consists only of lowercase English letters.`
 
+## My Solution
+
+```Python
+class Solution:
+    def scoreOfString(self, s: str) -> int:
+        result = 0
+        for i in range(len(s) - 1):
+            result += abs(ord(s[i]) - ord(s[i+1]))
+        return result
+```
+
