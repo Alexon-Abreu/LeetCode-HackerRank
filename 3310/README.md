@@ -49,9 +49,8 @@ class Solution:
 
 So we're given a string `s`, and we're told to find the `score` of `s`.
 
-the score is defined by the absolute difference in ASCII values of adjacent chars
-    so if s = "he", the score would be abs(ord(h) - ord(e))
-    
-    we can store this value in result and add additional values if the s includes more chars
+the `score` is defined by the absolute difference in **ASCII** values of adjacent chars
+    so if `s = "he"`, the `score` would be `abs(ord(h) - ord(e))`
+    we can store this value in `result` and add additional values if `s` includes more chars
 
 we need to do this before reaching the last char, to stay in bounds
