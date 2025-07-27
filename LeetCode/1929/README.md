@@ -34,3 +34,15 @@ Explanation: The array ans is formed as follows:
 
 `1 <= nums[i] <= 1000`
 
+## My Solution
+
+```Python
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        ans = [0] * (2*n)
+        ans = nums * 2
+
+        return ans
+```
+
