@@ -46,3 +46,14 @@ class Solution:
         return ans
 ```
 
+## Thought Process
+
+The goal is to concatenate two `num` arrays in order and have that stored in another array called `ans` and return `ans`...
+
+well for this we can just multiply the `nums` array by 2, and that would give us the value of two `nums` array.
+    for ex: `nums` = [1,2,3], after doing `nums * 2`, `nums` = [1,2,3,1,2,3]
+
+so all we have to do is create an array called `ans`, and set its length to twice the 
+size of the `nums` array.
+
+then store `nums * 2` inside the `ans` array.
