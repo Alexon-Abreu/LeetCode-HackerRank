@@ -81,7 +81,7 @@ class Solution:
         return avgs
 ```
 
-## Explanation
+## Thought Process
 
 The problem is asking us to build an array called `avgs` of length `n` where each element is a **k-radius average** for the subarray centered at index `i`.
 
