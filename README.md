@@ -2,6 +2,7 @@
 
 | #   | Title              | Difficulty | Solution   | Langauge   |
 |-----|--------------------|------------|------------|------------|
+| 2090  |  K Radius Subarray Averages    | Medium       | [Solution](LeetCode/)  |  Python  |
 | 2270  |  Number of Ways to Split Array    | Medium       | [Solution](LeetCode/2270)  |  Python  |
 | 1004  |  Max Consecutive Ones III    | Medium       | [Solution](LeetCode/1004)  |  Python  |
 | 167   |  Two Sum II - Input Array Is Sorted    | Medium       | [Solution](LeetCode/167)  |  Python  |
