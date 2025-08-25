@@ -5,7 +5,13 @@ Given an integer array `nums`, return `true` if any value appears **at least twi
 #### Example 1:
 
 ```Python
+Input: nums = [1,2,3,1]
 
+Output: true
+
+Explanation:
+
+The element 1 occurs at the indices 0 and 3.
 ```
 
 #### Example 2:
